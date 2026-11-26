@@ -129,7 +129,7 @@ def dibujar(ventana, fuente, fuentePequena, matriz, tamaño, seleccionado, mensa
 def ejecutar():
 
     pygame.init()
-    pygame.display.set_caption("Proyecto II - Version basica")
+    pygame.display.set_caption("Proyecto II")
 
     tamaño = 20
     matriz = crear_matriz(tamaño)
