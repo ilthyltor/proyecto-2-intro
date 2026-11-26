@@ -70,7 +70,7 @@ def dibujar(ventana, fuente, fuentePequena, matriz, tamaño, seleccionado, mensa
 
     ventana.fill((24, 28, 37))
     pygame.draw.rect(ventana, (37, 44, 57), (0, 0, ventana.get_width(), altoBarra))
-    ventana.blit(fuente.render("SANDBOX - VERSION BASICA", True, (245, 246, 249)), (14, 14))
+    ventana.blit(fuente.render("SANDBOX", True, (245, 246, 249)), (14, 14))
 
     pygame.draw.rect(ventana, (31, 37, 48), (0, altoBarra, anchoPanel, ventana.get_height()))
     ventana.blit(fuente.render("Herramientas", True, (245, 246, 249)), (14, 65))
